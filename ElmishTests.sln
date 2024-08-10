@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ElmishTodo", "ElmishTodo\ElmishTodo.fsproj", "{113ED4BB-4B8E-47BA-851C-6F5AFAE0D3F9}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ElmishCounter", "ElmishCounter\ElmishCounter.fsproj", "{10A6B7CB-6635-43FC-B985-BA2FCA36306D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ElmishTempConv", "ElmishTempConv\ElmishTempConv.fsproj", "{6AEEE521-124D-45A6-A658-C70125436451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{113ED4BB-4B8E-47BA-851C-6F5AFAE0D3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{113ED4BB-4B8E-47BA-851C-6F5AFAE0D3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{113ED4BB-4B8E-47BA-851C-6F5AFAE0D3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A6B7CB-6635-43FC-B985-BA2FCA36306D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A6B7CB-6635-43FC-B985-BA2FCA36306D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A6B7CB-6635-43FC-B985-BA2FCA36306D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A6B7CB-6635-43FC-B985-BA2FCA36306D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEEE521-124D-45A6-A658-C70125436451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEEE521-124D-45A6-A658-C70125436451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEEE521-124D-45A6-A658-C70125436451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEEE521-124D-45A6-A658-C70125436451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
