@@ -221,9 +221,10 @@ let itemRow (item: Item) (index: int) (dispatch: Msg -> unit) =
 
 let itemList (items : Item list) (dispatch: Msg -> unit) =
     Html.ul [
-        for index, item in (List.indexed items) -> Html.li [
-            itemRow item index dispatch
-        ]
+        for index, item in (List.indexed items) ->
+            Html.li [
+                itemRow item index dispatch
+            ]
     ]
 
 let clearButton (state: unit) (dispatch: Msg -> unit) =
